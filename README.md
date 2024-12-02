@@ -1,4 +1,4 @@
-# React Tailwin Portfolio
+# React Tailwind Portfolio
 
 ```
 npm install framer-motion
