@@ -1,6 +1,10 @@
 # React Tailwind Portfolio
 
 ```
+npm i
+```
+
+```
 npm install framer-motion
 ```
 
