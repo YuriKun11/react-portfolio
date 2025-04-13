@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion } from 'framer-motion';  // Import framer-motion
+import { motion } from 'framer-motion'; 
 import Tech from './sections/Tech';
 import Resume from './sections/Resume';
 import Projects from './sections/Projects';
@@ -30,16 +30,7 @@ function Design() {
             Frontend Developer
           </motion.h2>
           <div className="mt-4 flex flex-wrap gap-2">
-          <motion.button 
-  className="flex items-center bg-gray-700 text-white px-4 py-2 rounded-md mr-2 hover:bg-purple-600 transition duration-300"
-  initial={{ opacity: 0, scale: 0.9 }}
-  animate={{ opacity: 1, scale: 1 }}
-  whileHover={{ scale: 1.05 }}
-  transition={{ duration: 0.8, delay: 0.5 }}
->
-  <FaLinkedin className="mr-2" />
-  LinkedIn
-</motion.button>
+
 <motion.a 
   href="https://github.com/YuriKun11"
   target="_blank"
@@ -54,16 +45,19 @@ function Design() {
   Github
 </motion.a>
 
-<motion.button 
+<motion.a 
+   href="https://mail.google.com/mail/?view=cm&fs=1&to=jyreyes1133@gmail.com"
+   target="_blank"
+   rel="noopener noreferrer"
   className="flex items-center bg-gray-700 text-white px-4 py-2 rounded-md hover:bg-purple-600 transition duration-300"
   initial={{ opacity: 0, scale: 0.9 }}
   animate={{ opacity: 1, scale: 1 }}
   whileHover={{ scale: 1.05 }}
   transition={{ duration: 0.8, delay: 0.9 }}
->
+> 
   <FaEnvelope className="mr-2" />
   Mail
-</motion.button>
+</motion.a>
 
           </div>
           <motion.p 
